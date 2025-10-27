@@ -21,5 +21,4 @@ print("________________________________")
 for i in range(1, 11):
     resultado = numero_usuario * i
     print(f'{numero_usuario} x {i} = {resultado}')
-    print("● █▀█▄ Ɑ͞ ̶͞ ̶͞ ̶͞ لں͞!")
 print("________________________________")
