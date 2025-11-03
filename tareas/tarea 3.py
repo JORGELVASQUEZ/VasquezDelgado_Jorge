@@ -60,8 +60,6 @@ print("___________________________________________________")
 
 #6. Haz un programa que pida un número, y muestre si es primo o no.
 print("Ejercicio 6")
-# Programa que determina si un número es primo (sin usar break ni True/False)
-
 numero = int(input("Ingresa un número: "))
 contador = 0
 
