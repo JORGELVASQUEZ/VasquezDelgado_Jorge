@@ -62,7 +62,8 @@ print(fraselimpia)
 #2: pide una palabra y comprueba si es un palíndromo (se lee igual de izquierda a derecha y de derecha a izquierda).
 print("Ejercicio 2")
 palabra = input("Ingrese una palabra: ")
-if palabra == palabra[::-1]:
-    print("La palabra es un palíndromo.")
+palabra_inertida = palabra [::-1]
+if palabra.lower() == palabra_inertida.lower():
+    print("Es un palíndromo.")
 else:
-    print("La palabra no es un palíndromo.")
+    print("No es un palíndromo.")
