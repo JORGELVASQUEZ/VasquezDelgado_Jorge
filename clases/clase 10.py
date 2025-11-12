@@ -54,7 +54,13 @@ mayor = max(lista_numeros) #obtenemos el mayor numero de la lista
 print(f"El promedio de los numeros ingresados es: {promedio}")
 print(f"El numero mayor ingresado es: {mayor}")
 #Ejercicio 2: Pide numeros hasta que el usuario escriba 0: guardalos en una lista y muestra la lista ordenada ascendentemente
+print("Ejercicio 2")
+lista_numeros = []  #declaramos una lista vacia para guardar los numeros
+while True:
+    numero = float(input("Ingrese un numero (0 para terminar): "))
+    if numero == 0:
+        break #salimos del bucle si el numero es 0
+    lista_numeros.append(numero) #agregamos el numero ingresado a la lista
+lista_numeros.sort() #ordenamos la lista en orden ascendente
+print("Lista ordenada ascendentemente:", lista_numeros)
 
-
-
-#Ejercicio 3:

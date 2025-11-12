@@ -63,3 +63,8 @@ for i in range(11):
 print("Lista llena:", lista3)
 print(len(lista3)) #muestra la cantidad de elementos en la lista
 print(sum(lista3)) #muestra la suma de todos los elementos en la lista
+
+lista3.reverse() #invierte el orden de los elementos en la lista
+print("Lista invertida:", lista3)
+lista3.sort() #ordena los elementos de la lista en orden ascendente
+print("Lista ordenada:", lista3)
