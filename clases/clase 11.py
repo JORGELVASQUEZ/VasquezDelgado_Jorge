@@ -104,3 +104,4 @@ while pais_buscado in diccionario_paises:
     if pais_buscado in diccionario_paises:
         print(f"la capital del pais {pais_buscado} es: {diccionario_paises[pais_buscado]}")
     else:
+        print("El pais no se encuentra en el diccionario.")
