@@ -26,7 +26,7 @@ print("_______________________________________________________________________")
 #3.- Haz un programa que pida al usuario una contraseña. Verifica que: La contraseña tenga al menos 8 caracteres, y que contenga al menos una mayúscula y un número.
 print("Ejercicio 3")
 contraseña = input("Introduce una contraseña: ")
-tiene_mayuscula = any(c.isupper() for c in contraseña)
+tiene_mayuscula =any(c.isupper() for c in contraseña)
 tiene_numero = any(c.isdigit() for c in contraseña)
 es_valida = len(contraseña) >= 8 and tiene_mayuscula and tiene_numero
 if es_valida:
@@ -137,3 +137,5 @@ else:
     print("No encontrado")
 
 print("_______________________________________________________________________")
+
+print(" : )")
